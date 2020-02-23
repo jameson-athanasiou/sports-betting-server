@@ -1,0 +1,38 @@
+{
+	"americanFootball": {
+		"games": [
+			{
+				"id": "12345",
+				"home": {
+					"location": "New England",
+					"name": "Patriots",
+					"id": "1"
+				},
+				"away": {
+					"location": "Baltimore",
+					"name": "Ravens",
+					"id": "2"
+				},
+				"favorite": "home",
+				"spread": 3.5,
+				"overUnder": 44.5
+			},
+			{
+				"id": "12346",
+				"home": {
+					"location": "Miami",
+					"name": "Dolphins",
+					"id": "3"
+				},
+				"away": {
+					"location": "Cincinati",
+					"name": "Bengals",
+					"id": "4"
+				},
+				"favorite": "away",
+				"spread": 15,
+				"overUnder": 40.5
+			}
+		]
+	}
+}

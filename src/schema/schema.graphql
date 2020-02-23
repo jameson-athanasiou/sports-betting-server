@@ -1,0 +1,27 @@
+type Team {
+    location: String!
+    name: String!
+    id: String!
+}
+
+type Game {
+    id: String!
+    home: Team!
+    away: Team!
+    favorite: String
+    spread: Float!
+    overUnder: Float!
+}
+
+type Sport {
+    games: [Game]!
+}
+
+type Odds {
+    americanFootball: Sport!
+}
+
+type Query {
+  helloWorld: String!
+  odds: Odds!
+}
